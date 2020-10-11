@@ -1,0 +1,25 @@
+./a.out
+
+How many numbers do you want to sort? 5
+
+Enter 5 numbers : 5 4 3 2 1
+
+I am parent process pid is 12870
+***MERGE SORT***
+
+Before Sorting : 5, 4, 3, 2, 1, 
+After Sorting : 1, 2, 3, 4, 5, 
+-------------------------------------
+
+I am child process pid is 12871
+My parent's id is 12870
+***QUICK SORT***
+
+Before Sorting : 5, 4, 3, 2, 1, 
+After Sorting : 1, 2, 3, 4, 5, 
+-------------------------------------
+
+Child completed.
+0 S  1000 12870 11929  0  80   0 -  1127 wait   pts/0    00:00:00 a.out
+1 Z  1000 12871 12870  0  80   0 -     0 -      pts/0    00:00:00 a.out <defunct>
+Parent completed

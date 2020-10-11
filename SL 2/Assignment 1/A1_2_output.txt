@@ -1,0 +1,254 @@
+$ ./33231_L10_Asgn1_PartB.sh
+Enter filename : b1.txt
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 1
+Enter employee name : sara
+Enter department(finance, marketing, production) : finance
+Enter designation : clerk
+Enter salary : 50000
+Record Inserted sucessfully
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 1
+Enter employee name : john
+Enter department(finance, marketing, production) : marketing
+Enter designation : manager
+Enter salary : 80000
+Record Inserted sucessfully
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 1
+Enter employee name : maya
+Enter department(finance, marketing, production) : production
+Enter designation : developer
+Enter salary : 60000
+Record Inserted sucessfully
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 1
+Enter employee name : alka
+Enter department(finance, marketing, production) : finance
+Enter designation : accountant
+Enter salary : 40000
+Record Inserted sucessfully
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 2
+
+1. Department-wise Report
+2. Salary-wise Report
+3. Designation-wise report
+4. Entire Report
+Enter your choice : 4
+
+--------------------------------------------------------------------------------
+EMP ID  NAME     DEPARTMENT  DESIGNATION  SALARY  DA      HRA      GROSS SALARY
+--------------------------------------------------------------------------------
+ 37102    sara     finance       clerk   50000  25000.00  10000.00  85000.00
+ 37103    john   marketing     manager   80000  40000.00  16000.00  136000.00
+ 37104    maya  production   developer   60000  30000.00  12000.00  102000.00
+ 37105    alka     finance  accountant   40000  20000.00  8000.00  68000.00
+
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 2
+
+1. Department-wise Report
+2. Salary-wise Report
+3. Designation-wise report
+4. Entire Report
+Enter your choice : 1
+Enter department : finance
+
+--------------------------------------------------------------------------------
+EMP ID  NAME     DEPARTMENT  DESIGNATION  SALARY  DA      HRA      GROSS SALARY
+--------------------------------------------------------------------------------
+37102   sara     finance      clerk       50000   25000.0 10000.0   85000.0
+37105   alka     finance     accountant   40000   20000.0 8000.0    68000.0
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 2
+
+1. Department-wise Report
+2. Salary-wise Report
+3. Designation-wise report
+4. Entire Report
+Enter your choice : 2
+Enter salary : 50000
+
+--------------------------------------------------------------------------------
+EMP ID  NAME     DEPARTMENT  DESIGNATION  SALARY  DA      HRA      GROSS SALARY
+--------------------------------------------------------------------------------
+37102    sara     finance      clerk      50000 25000.0 10000.0     85000.0
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 2
+
+1. Department-wise Report
+2. Salary-wise Report
+3. Designation-wise report
+4. Entire Report
+Enter your choice : 3
+Enter designation : manager
+
+--------------------------------------------------------------------------------
+EMP ID  NAME     DEPARTMENT  DESIGNATION  SALARY  DA      HRA      GROSS SALARY
+--------------------------------------------------------------------------------
+37103     john    marketing   manager      80000 40000.0 16000.0    136000.0
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 3
+Enter the employee id to be searched : 37104
+
+37104 maya production developer 60000 30000.0 12000.0 102000.0
+Record found
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 3   
+Enter the employee id to be searched : 37109
+
+Record not found
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 4
+Enter the employee id to be deleted : 37103
+Record Deleted sucessfully
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 2
+
+1. Department-wise Report
+2. Salary-wise Report
+3. Designation-wise report
+4. Entire Report
+Enter your choice : 4
+
+--------------------------------------------------------------------------------
+EMP ID  NAME     DEPARTMENT  DESIGNATION  SALARY  DA      HRA      GROSS SALARY
+--------------------------------------------------------------------------------
+ 37102    sara     finance       clerk   50000  25000.00  10000.00  85000.00
+ 37104    maya  production   developer   60000  30000.00  12000.00  102000.00
+ 37105    alka     finance  accountant   40000  20000.00  8000.00  68000.00
+
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 5
+Enter the employee id to be modified : 37102
+Enter employee name : vidhi
+Enter department(finance, marketing, production) : production
+Enter designation : director
+Enter salary : 56000
+
+Record modified sucessfully
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 2
+
+1. Department-wise Report
+2. Salary-wise Report
+3. Designation-wise report
+4. Entire Report
+Enter your choice : 4
+
+--------------------------------------------------------------------------------
+EMP ID  NAME     DEPARTMENT  DESIGNATION  SALARY  DA      HRA      GROSS SALARY
+--------------------------------------------------------------------------------
+ 37104    maya  production   developer   60000  30000.00  12000.00  102000.00
+ 37105    alka     finance  accountant   40000  20000.00  8000.00  68000.00
+ 37106   vidhi  production    director   56000  28000.00  11200.00  95200.00
+
+
+*****MENU:*****
+1. Accept employee information
+2. Display employee information
+3. Search an employee
+4. Delete employee record
+5. Modify employee record
+6.Exit
+Enter your choice : 6
+

@@ -1,0 +1,74 @@
+$ ./a.out
+
+Enter number of rows and columns for MATRIX 1: 2 3
+
+Enter element 1 1 : 1
+Enter element 1 2 : 2
+Enter element 1 3 : 3
+Enter element 2 1 : 4
+Enter element 2 2 : 5
+Enter element 2 3 : 6
+
+Enter number of rows and columns for MATRIX 2: 3 2
+
+Enter element 1 1 : 10
+Enter element 1 2 : 11
+Enter element 2 1 : 20
+Enter element 2 2 : 21
+Enter element 3 1 : 30
+Enter element 3 2 : 31
+
+Matrix 1:
+1 2 3 
+4 5 6 
+
+Matrix 2:
+10 11 
+20 21 
+30 31 
+
+Result:
+140 146 
+320 335 
+
+$ ./a.out
+
+Enter number of rows and columns for MATRIX 1: 2 4
+
+Enter element 1 1 : 1
+Enter element 1 2 : 2
+Enter element 1 3 : 3
+Enter element 1 4 : 4
+Enter element 2 1 : 5
+Enter element 2 2 : 6
+Enter element 2 3 : 7
+Enter element 2 4 : 8
+
+Enter number of rows and columns for MATRIX 2: 4 3
+
+Enter element 1 1 : 1
+Enter element 1 2 : 2
+Enter element 1 3 : 3
+Enter element 2 1 : 4
+Enter element 2 2 : 5
+Enter element 2 3 : 6
+Enter element 3 1 : 7
+Enter element 3 2 : 8
+Enter element 3 3 : 9
+Enter element 4 1 : 10
+Enter element 4 2 : 11
+Enter element 4 3 : 12
+
+Matrix 1:
+1 2 3 4 
+5 6 7 8 
+
+Matrix 2:
+1 2 3 
+4 5 6 
+7 8 9 
+10 11 12 
+
+Result:
+70 80 90 
+158 184 210 
