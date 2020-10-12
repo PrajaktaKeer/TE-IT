@@ -22,7 +22,7 @@ void* multi(void* arg)
 int main() {
 	matrix m;
 	m.step_i = 0;
-	memset(m.result, 0, 2*sizeof(m.result[0]));
+	memset(m.result, 0, MAX*sizeof(m.result[0]));
 
 	int i , j;
 	

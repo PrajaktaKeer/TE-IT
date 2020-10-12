@@ -1,0 +1,123 @@
+$ ./a.out
+
+Enter the number of producers and consumers. 4 4
+
+Producer 2 produced item : 83
+Elements in buffer = 83 
+
+Producer 4 produced item : 86
+Elements in buffer = 83 86 
+
+Producer 3 produced item : 77
+Elements in buffer = 83 86 77 
+
+Producer 1 produced item : 15
+Elements in buffer = 83 86 77 15 
+
+Consumer 2 consumed item : 83
+Elements in buffer = 86 77 15 
+
+Consumer 3 consumed item : 86
+Elements in buffer = 77 15 
+
+Consumer 1 consumed item : 77
+Elements in buffer = 15 
+
+Consumer 4 consumed item : 15
+Elements in buffer = 
+
+Producer 2 produced item : 93
+Elements in buffer = 93 
+
+Producer 1 produced item : 35
+Elements in buffer = 93 35 
+
+Producer 3 produced item : 86
+Elements in buffer = 93 35 86 
+
+Producer 4 produced item : 92
+Elements in buffer = 93 35 86 92 
+
+Consumer 2 consumed item : 93
+Elements in buffer = 35 86 92 
+
+Consumer 1 consumed item : 35
+Elements in buffer = 86 92 
+
+Consumer 4 consumed item : 86
+Elements in buffer = 92 
+
+Consumer 3 consumed item : 92
+Elements in buffer = 
+
+Producer 2 produced item : 49
+Elements in buffer = 49 
+
+Producer 1 produced item : 21
+Elements in buffer = 49 21 
+
+Producer 4 produced item : 62
+Elements in buffer = 49 21 62 
+
+Consumer 2 consumed item : 49
+Elements in buffer = 21 62 
+
+Producer 3 produced item : 27
+Elements in buffer = 21 62 27 
+
+Consumer 1 consumed item : 21
+Elements in buffer = 62 27 
+
+Consumer 4 consumed item : 62
+Elements in buffer = 27 
+
+Consumer 3 consumed item : 27
+Elements in buffer = 
+
+Producer 2 produced item : 90
+Elements in buffer = 90 
+
+Producer 1 produced item : 59
+Elements in buffer = 90 59 
+
+Producer 4 produced item : 63
+Elements in buffer = 90 59 63 
+
+Producer 3 produced item : 26
+Elements in buffer = 90 59 63 26 
+
+Consumer 1 consumed item : 90
+Elements in buffer = 59 63 26 
+
+Consumer 2 consumed item : 59
+Elements in buffer = 63 26 
+
+Consumer 4 consumed item : 63
+Elements in buffer = 26 
+
+Consumer 3 consumed item : 26
+Elements in buffer = 
+
+Producer 2 produced item : 40
+Elements in buffer = 40 
+
+Producer 1 produced item : 26
+Elements in buffer = 40 26 
+
+Producer 4 produced item : 72
+Elements in buffer = 40 26 72 
+
+Producer 3 produced item : 36
+Elements in buffer = 40 26 72 36 
+
+Consumer 1 consumed item : 40
+Elements in buffer = 26 72 36 
+
+Consumer 2 consumed item : 26
+Elements in buffer = 72 36 
+
+Consumer 4 consumed item : 72
+Elements in buffer = 36 
+
+Consumer 3 consumed item : 36
+Elements in buffer = 
