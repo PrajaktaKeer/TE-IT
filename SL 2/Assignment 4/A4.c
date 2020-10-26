@@ -10,6 +10,13 @@ int count = 0, in = 0, out = 0, a[5];
 
 void print_buffer() {
     printf("\nElements in buffer = ");
+    if(in == out && a[in] != -1) {
+        for(int i = in, j = 0; j < 5 ; i++, j++) {
+            if(i > 4)
+                i = 0;
+            printf("%d ", a[i]);
+        }
+    }
     for(int i = out; i != in; i++) {
         if(i > 4) {
             if(in == 0)
@@ -32,7 +39,7 @@ void *producer(void *arg) {
         if(count >= 5)
             printf("\n***Buffer is full***");
         else {
-            a[in] = rand() % 100;
+            a[in] = rand() % 20;
             printf("\nProducer %d produced item : %d", i, a[in]);
             in = (in+1) % 5;
             count++;
@@ -40,7 +47,7 @@ void *producer(void *arg) {
         }
         pthread_mutex_unlock(&mutex);
         sem_post(&full);
-        sleep(2);
+        sleep(1);
     }
     pthread_exit(0);
 }
@@ -62,7 +69,7 @@ void *consumer(void *arg) {
         }
         pthread_mutex_unlock(&mutex);
         sem_post(&empty);
-        sleep(2);
+        sleep(rand() % 4);
     }
     pthread_exit(0);
 }
