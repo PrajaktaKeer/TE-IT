@@ -1,0 +1,19 @@
+$ gcc A2_2.c -o A2_2
+$ gcc bin_search.c -o bin_search
+
+$ ./A2_2 ./bin_search
+
+How many numbers do you want to sort? 5
+
+Enter 5 numbers. 17 80 56 42 29
+
+Inside child process PID = 13281
+
+Enter key to search. 80
+Element found at location 5 
+
+Inside parent block PID = 13279
+***BUBBLE SORT***
+
+Before sorting : 17, 80, 56, 42, 29, 
+After sorting : 17, 29, 42, 56, 80, 

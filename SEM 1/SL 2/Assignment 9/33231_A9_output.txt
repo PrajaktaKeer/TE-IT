@@ -1,0 +1,182 @@
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 2
+No entries to display
+
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 1
+
+Enter employee name. prajakta
+
+Enter employee id. 1
+
+Enter employee salary. 2000
+Record inserted successfully!!
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 1
+
+Enter employee name. smita
+
+Enter employee id. 2
+
+Enter employee salary. 3000
+Record inserted successfully!!
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 1
+
+Enter employee name. tina
+
+Enter employee id. 3
+
+Enter employee salary. 4000
+Record inserted successfully!!
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 2
+
+---------------------------------------------------------
+
+ID	NAME		SALARY
+---------------------------------------------------------
+1    	prajakta  	2000
+2    	smita     	3000
+3    	tina      	4000
+
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 4
+
+Enter employee id to be searched. 2
+
+---------------------------------------------------------
+
+ID	NAME		SALARY
+---------------------------------------------------------
+2    	smita     	3000
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 4
+
+Enter employee id to be searched. 7
+
+Record not found
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 3
+
+Enter employee ID to be deleted: 2
+
+Record delete successfully!
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 2
+
+---------------------------------------------------------
+
+ID	NAME		SALARY
+---------------------------------------------------------
+1    	prajakta  	2000
+3    	tina      	4000
+
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 3
+
+Enter employee ID to be deleted: 2
+
+Record not found
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 5
+
+Enter employee ID to be modified: 3
+
+Enter new name. radha
+
+Enter new salary. 9000
+
+Record modified successfully!
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 2
+
+---------------------------------------------------------
+
+ID	NAME		SALARY
+---------------------------------------------------------
+1    	prajakta  	2000
+3    	radha     	9000
+
+MENU:
+1. Insert a record
+2. View all records
+3. Delete a record
+4. Search a record
+5. Modify a record
+6. Exit
+Enter your choice = 6
+
+Bye
