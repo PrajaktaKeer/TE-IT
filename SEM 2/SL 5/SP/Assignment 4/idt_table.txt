@@ -1,0 +1,7 @@
+Index	IDENTIFIER	TOKEN
+1	      main		ID1
+2	       num		ID2
+3	       den		ID3
+4	    result		ID4
+5	    printf		ID5
+6	     scanf		ID6

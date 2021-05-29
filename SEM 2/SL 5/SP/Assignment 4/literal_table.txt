@@ -1,0 +1,10 @@
+Index			Literal			TOKEN	Attribute
+1	       Enter numerator : 	  LT1	String constant
+2	                       %d	  LT2	String constant
+3	     Enter Denominator : 	  LT3	String constant
+4	                       %d	  LT4	String constant
+5	                        0	  LT5	Numeric Constant
+6	            result = %f\n	  LT6	String constant
+7	                        0	  LT7	Numeric Constant
+8	 Exception divide by zero	  LT8	String constant
+9	                        0	  LT9	Numeric Constant

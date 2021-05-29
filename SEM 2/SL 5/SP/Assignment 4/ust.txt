@@ -1,0 +1,80 @@
+Lexeme	TYPE  INDEX	TOKEN
+   int	KEY	   13	k13
+  main	SYM	    1	ID1
+     (	TER	    7	(
+     )	TER	    8	)
+     {	TER	    9	{
+   int	KEY	   13	k13
+   num	SYM	    2	ID2
+     ,	TER	    1	,
+   den	SYM	    3	ID3
+     ;	TER	    2	;
+ float	KEY	   10	k10
+result	SYM	    4	ID4
+     ;	TER	    2	;
+    do	KEY	    7	K7
+     {	TER	    9	{
+printf	SYM	    5	ID5
+     (	TER	    7	(
+Enter numerator : 	LIT	    1	LT1
+     )	TER	    8	)
+     ;	TER	    2	;
+ scanf	SYM	    6	ID6
+     (	TER	    7	(
+    %d	LIT	    2	LT2
+     ,	TER	    1	,
+     &	TER	   12	&
+   num	SYM	    2	ID2
+     )	TER	    8	)
+     ;	TER	    2	;
+printf	SYM	    5	ID5
+     (	TER	    7	(
+Enter Denominator : 	LIT	    3	LT3
+     )	TER	    8	)
+     ;	TER	    2	;
+ scanf	SYM	    6	ID6
+     (	TER	    7	(
+    %d	LIT	    4	LT4
+     ,	TER	    1	,
+     &	TER	   12	&
+   den	SYM	    3	ID3
+     )	TER	    8	)
+     ;	TER	    2	;
+    if	KEY	   12	k12
+     (	TER	    7	(
+   den	SYM	    3	ID3
+     =	TER	   11	=
+     0	LIT	    5	LT5
+     )	TER	    8	)
+     {	TER	    9	{
+result	SYM	    4	ID4
+     =	TER	   11	=
+   num	SYM	    2	ID2
+     /	TER	    6	/
+   den	SYM	    3	ID3
+     ;	TER	    2	;
+printf	SYM	    5	ID5
+     (	TER	    7	(
+result = %f\n	LIT	    6	LT6
+     ,	TER	    1	,
+result	SYM	    4	ID4
+     )	TER	    8	)
+     ;	TER	    2	;
+     }	TER	   10	}
+     }	TER	   10	}
+ while	KEY	   21	k21
+     (	TER	    7	(
+   den	SYM	    3	ID3
+     =	TER	   11	=
+     0	LIT	    7	LT7
+     )	TER	    8	)
+     ;	TER	    2	;
+printf	SYM	    5	ID5
+     (	TER	    7	(
+Exception divide by zero	LIT	    8	LT8
+     )	TER	    8	)
+     ;	TER	    2	;
+return	KEY	   15	k15
+     0	LIT	    9	LT9
+     ;	TER	    2	;
+     }	TER	   10	}
